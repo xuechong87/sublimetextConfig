@@ -1,0 +1,6 @@
+[
+	{ "keys": ["alt+right"], "command": "duplicate_line"},
+	{ "keys": ["alt+up"], "command": "swap_line_up"},
+	{ "keys": ["alt+down"], "command": "swap_line_down"},
+	{ "keys": ["ctrl+d"], "command": "cut","args":{"by":"line"} }
+]
