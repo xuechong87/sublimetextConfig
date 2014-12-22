@@ -2,5 +2,12 @@
 	{ "keys": ["alt+right"], "command": "duplicate_line"},
 	{ "keys": ["alt+up"], "command": "swap_line_up"},
 	{ "keys": ["alt+down"], "command": "swap_line_down"},
-	{ "keys": ["ctrl+d"], "command": "cut","args":{"by":"line"} }
+	{ "keys": ["ctrl+d"], "command": "cut","args":{"by":"line"} },
+	{"keys":["ctrl+f5"],
+    "caption": "SublimeREPL: Python - RUN current file",
+    "command": "run_existing_window_command", "args":
+    {
+        "id": "repl_python_run",
+        "file": "config/Python/Main.sublime-menu"
+    }}
 ]
