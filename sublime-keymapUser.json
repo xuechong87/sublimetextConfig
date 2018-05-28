@@ -9,5 +9,6 @@
     {
         "id": "repl_python_run",
         "file": "config/Python/Main.sublime-menu"
-    }}
+    }},
+    { "keys": ["ctrl+shift+f5"], "command": "markdown_preview", "args": { "target": "browser"} }
 ]
